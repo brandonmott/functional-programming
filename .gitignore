@@ -1,0 +1,107 @@
+# Compiled folders #
+####################
+*target/*
+*bin/*
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+ 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+ 
+# Dependencie Package #
+#######################
+/vendor
+/node_modules
+*node_modules/*
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+*.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE config folders #
+######################
+*.idea/*
+*.idea_modules/*
+
+
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+*.DS_Store
+project/project/
+project/target
+tmp
+.history
+dist
+/*.iml
+/out
+.DS_Store
+
+### All the following .gitignore settings were found at  ###
+### https://github.com/github/gitignore/blob/master/Scala.gitignore  ###
+
+*.class
+*.log
+
+# sbt specific 
+*activator*
+.cache
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.iml
+*.eml
+/dist/
+### do not ignore application.conf-template ###
+conf/application.conf
